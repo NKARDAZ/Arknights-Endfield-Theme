@@ -616,7 +616,7 @@
     "property":                         { "foreground": "#c7ba16" },
     "property.declaration":             { "foreground": "#c7ba16" },
     "property.readonly":                { "foreground": "#cd5a63", "italic": true },
-    "parameter":                        { "foreground": "#005F88", "italic": true },
+    "parameter":                        { "foreground": "#00c524", "italic": true },
     "variable":                         { "foreground": "#1E1E22" },
     "variable.readonly":                { "foreground": "#cd5a63" },
     "variable.readonly.defaultLibrary": { "foreground": "#cd5a63", "italic": true },
