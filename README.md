@@ -1,5 +1,5 @@
 # Arknights: Endfield Theme
 
-Just theme inspired by and based on “Arknights: Endfield” GUI colors
+A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.
 
 ![1779202486668](image/README/1779202486668.png)
