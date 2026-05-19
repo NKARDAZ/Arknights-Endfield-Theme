@@ -3,7 +3,7 @@
 	"displayName": "Arknights: Endfield Theme",
 	"description": "A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.",
 	"publisher": "YallaNkardaz",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.120.0"
 	},
