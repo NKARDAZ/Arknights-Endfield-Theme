@@ -1,0 +1,21 @@
+{
+  "name": "arknights-endfield-theme",
+  "displayName": "Arknights: Endfield Theme",
+  "description": "Theme inspired by and based on “Arknights: Endfield” GUI colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arknights: Endfield (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Arknights Endfield (Light)-color-theme.json"
+      }
+    ]
+  }
+}
