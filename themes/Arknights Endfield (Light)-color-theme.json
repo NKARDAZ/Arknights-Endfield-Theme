@@ -59,8 +59,8 @@
 
     // Bracket pair colorization
     "editorBracketMatch.background": "#F5E64230",
-    "editorBracketMatch.border": "#F5E642",
-    "editorBracketHighlight.foreground1": "#F5E642",
+    "editorBracketMatch.border": "#e7c81b",
+    "editorBracketHighlight.foreground1": "#e7c81b",
     "editorBracketHighlight.foreground2": "#00C8FF",
     "editorBracketHighlight.foreground3": "#FF6B35",
     "editorBracketHighlight.foreground4": "#7EC8A0",
@@ -107,20 +107,20 @@
     "peekViewTitleLabel.foreground": "#F5E642",
 
     // Tabs
-    "editorGroupHeader.tabsBackground": "#E8E8E4",
-    "editorGroupHeader.tabsBorder": "#D4D4CC",
-    "tab.activeBackground": "#F5E642",
+    "editorGroupHeader.tabsBackground": "#eeecec",
+    "editorGroupHeader.tabsBorder": "#e1e1da",
+    "tab.activeBackground": "#fffdfd",
     "tab.activeForeground": "#1A1A1E",
-    "tab.activeBorder": "#FAFAF7",
+    "tab.activeBorder": "#e1e1da",
     "tab.activeBorderTop": "#00000000",
-    "tab.inactiveBackground": "#E8E8E4",
+    "tab.inactiveBackground": "#eeecec",
     "tab.inactiveForeground": "#888880",
     "tab.hoverBackground": "#F0F0EC",
     "tab.hoverForeground": "#1A1A1E",
-    "tab.border": "#D4D4CC",
+    "tab.border": "#e1e1da",
     "tab.unfocusedActiveBackground": "#EDE8A0",
     "tab.unfocusedActiveForeground": "#555560",
-    "tab.unfocusedActiveBorder": "#D4D4CC",
+    "tab.unfocusedActiveBorder": "#e1e1da",
 
     // Title bar
     "titleBar.activeBackground": "#EAEAE6",
@@ -155,7 +155,7 @@
     "panelTitle.inactiveForeground": "#888880",
 
     // Terminal
-    "terminal.background": "#1A1A1E",
+    "terminal.background": "#e4e4e0",
     "terminal.foreground": "#D8D8D0",
     "terminal.ansiBlack": "#1A1A1E",
     "terminal.ansiRed": "#CC4444",
@@ -226,7 +226,7 @@
     "badge.foreground": "#1A1A1E",
 
     // Breadcrumb
-    "breadcrumb.background": "#FAFAF7",
+    "breadcrumb.background": "#FFFFFF",
     "breadcrumb.foreground": "#888880",
     "breadcrumb.focusForeground": "#1A1A1E",
     "breadcrumb.activeSelectionForeground": "#F5E200",
@@ -234,10 +234,10 @@
 
     // Git decorations
     "gitDecoration.addedResourceForeground": "#4CAF70",
-    "gitDecoration.modifiedResourceForeground": "#D4A017",
+    "gitDecoration.modifiedResourceForeground": "#2fb5f1",
     "gitDecoration.deletedResourceForeground": "#CC4444",
     "gitDecoration.untrackedResourceForeground": "#4CAF70",
-    "gitDecoration.ignoredResourceForeground": "#BCBCB4",
+    "gitDecoration.ignoredResourceForeground": "#9d9d96",
     "gitDecoration.conflictingResourceForeground": "#CC6600",
     "gitDecoration.submoduleResourceForeground": "#00A8D0",
 
