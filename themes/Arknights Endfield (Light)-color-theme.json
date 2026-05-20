@@ -366,6 +366,11 @@
       "scope": ["storage.type", "storage.modifier"],
       "settings": { "foreground": "#1e64f1", "fontStyle": "italic bold" }
     },
+		{
+			"name": "Arrow function =>",
+			"scope": ["storage.type.function.arrow"],
+			"settings": { "foreground": "#1e64f1", "fontStyle": "" }
+		},
 
     // ── TYPES / CLASSES ───────────────────────────────────────────────────────
     {
