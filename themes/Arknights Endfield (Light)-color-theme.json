@@ -465,7 +465,7 @@
     {
       "name": "Tag name",
       "scope": ["entity.name.tag"],
-      "settings": { "foreground": "#777", "fontStyle": "bold" }
+      "settings": { "foreground": "#b78484", "fontStyle": "" }
     },
     {
       "name": "Tag attribute name",
