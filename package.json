@@ -1,27 +1,27 @@
 {
-	"name": "arknights-endfield-theme",
-	"displayName": "Arknights: Endfield Theme",
-	"description": "A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.",
-	"publisher": "YallaNkardaz",
-	"version": "1.0.2",
-	"engines": {
-		"vscode": "^1.120.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Arknights: Endfield (Light)",
-				"uiTheme": "vs",
-				"path": "./themes/Arknights Endfield (Light)-color-theme.json"
-			}
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/DemerNkardaz/Arknights-Endfield-Theme.git"
-	},
-	"icon": "logo.png"
+  "name": "arknights-endfield-theme",
+  "displayName": "Arknights: Endfield Theme",
+  "description": "A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.",
+  "publisher": "YallaNkardaz",
+  "version": "1.0.3",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arknights: Endfield (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Arknights Endfield (Light)-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DemerNkardaz/Arknights-Endfield-Theme.git"
+  },
+  "icon": "logo.png"
 }
