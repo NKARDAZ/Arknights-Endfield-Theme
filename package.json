@@ -3,7 +3,7 @@
   "displayName": "Arknights: Endfield Theme",
   "description": "A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.",
   "publisher": "YallaNkardaz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.120.0"
   },
@@ -13,9 +13,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Arknights: Endfield (Light)",
+        "label": "Arknights: Endfield [Light Warm]",
         "uiTheme": "vs",
-        "path": "./themes/Arknights Endfield (Light)-color-theme.json"
+        "path": "./themes/arknights-endfield-warm-light-color-theme.json"
+      },
+      {
+        "label": "Arknights: Endfield [Light Cold]",
+        "uiTheme": "vs",
+        "path": "./themes/arknights-endfield-cold-light-color-theme.json"
       }
     ]
   },
