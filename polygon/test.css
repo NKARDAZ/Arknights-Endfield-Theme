@@ -1,0 +1,131 @@
+/* ============ 1. КОММЕНТАРИИ ============ */
+/* однострочный по формату CSS */
+/*
+  многострочный
+  комментарий
+*/
+
+/* ============ 2. ПЕРЕМЕННЫЕ (custom properties) ============ */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: rgba(52, 152, 219, 0.5);
+  --spacing-unit: 8px;
+  --font-stack: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ============ 3. СЕЛЕКТОРЫ ВСЕХ ТИПОВ ============ */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+.class-selector { color: red; }
+#id-selector { color: blue; }
+[data-attr] { color: green; }
+[data-attr="value"] { color: purple; }
+[href^="https://"] { color: orange; }
+[class*="btn"] { cursor: pointer; }
+
+.parent > .child { margin: 0; }
+.sibling + .next { margin-top: 10px; }
+.sibling ~ .general { margin-top: 5px; }
+.descendant .nested { padding: 0; }
+
+/* ============ 4. ПСЕВДОКЛАССЫ И ПСЕВДОЭЛЕМЕНТЫ ============ */
+a:hover { text-decoration: underline; }
+a:focus { outline: 2px solid var(--primary-color); }
+a:visited { color: purple; }
+li:first-child { font-weight: bold; }
+li:last-child { border: none; }
+li:nth-child(2n+1) { background: #eee; }
+input:disabled { opacity: 0.5; }
+input:checked + label { color: green; }
+p:not(.excluded) { color: black; }
+.container::before { content: "→ "; }
+.container::after { content: ""; display: block; }
+::selection { background: yellow; }
+::placeholder { color: gray; }
+
+/* ============ 5. ЕДИНИЦЫ ИЗМЕРЕНИЯ И ЗНАЧЕНИЯ ============ */
+.units {
+  width: 100px;
+  height: 50vh;
+  max-width: 90vw;
+  font-size: 1.5rem;
+  line-height: 1.6em;
+  margin: 2mm;
+  padding: 1in;
+  border-radius: 50%;
+  opacity: 0.85;
+  z-index: 999;
+}
+
+/* ============ 6. ЦВЕТА ВО ВСЕХ ФОРМАТАХ ============ */
+.colors {
+  color: red;
+  background: #ff0000;
+  border-color: #f00;
+  outline-color: rgb(255, 0, 0);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+  fill: hsl(0, 100%, 50%);
+  stroke: hsla(0, 100%, 50%, 0.8);
+}
+
+/* ============ 7. ФУНКЦИИ ============ */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 2 * var(--spacing-unit));
+  padding: 1.5rem 2em;
+  background: linear-gradient(45deg, #ff6b6b, var(--primary-color));
+  transform: translateX(10px) rotate(45deg) scale(1.2);
+  transition: all 0.3s ease-in-out;
+  font-family: var(--font-stack, sans-serif);
+  grid-template-columns: repeat(3, 1fr);
+  clamp-value: clamp(1rem, 2vw, 3rem);
+}
+
+/* ============ 8. МЕДИА-ЗАПРОСЫ И ПРАВИЛА ============ */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@supports (display: grid) {
+  .container {
+    display: grid;
+  }
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("font.woff2") format("woff2");
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animated {
+  animation: fadeIn 0.3s ease-in-out infinite alternate;
+}
+
+/* ============ 9. ВАЖНОСТЬ И СПЕЦИФИЧНОСТЬ ============ */
+.important-rule {
+  color: red !important;
+}
+
+/* ============ 10. МНОЖЕСТВЕННЫЕ СЕЛЕКТОРЫ И ВЛОЖЕННОСТЬ ============ */
+.a, .b, .c {
+  border: 1px solid black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #5dade2;
+  }
+  body {
+    background: #1e1e1e;
+    color: #eee;
+  }
+}

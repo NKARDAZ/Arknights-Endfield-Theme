@@ -1,0 +1,48 @@
+{
+  "_comment_note": "JSON не поддерживает комментарии, поэтому ключ используется как заметка",
+  "stringValue": "простая строка",
+  "stringWithEscapes": "с \"кавычками\", \n переводом строки и \\ бэкслешем",
+  "unicodeString": "юникод: \u00e9\u00e8\u00ea",
+  "integerPositive": 42,
+  "integerNegative": -17,
+  "floatValue": 3.14159,
+  "exponentValue": 6.022e23,
+  "exponentNegative": 1.5e-10,
+  "zero": 0,
+  "booleanTrue": true,
+  "booleanFalse": false,
+  "nullValue": null,
+  "emptyString": "",
+  "emptyArray": [],
+  "emptyObject": {},
+  "simpleArray": [1, 2, 3, 4, 5],
+  "mixedArray": ["text", 42, true, null, 3.14],
+  "nestedArray": [[1, 2], [3, 4], [5, 6]],
+  "nestedObject": {
+    "level1": {
+      "level2": {
+        "level3": "глубокая вложенность"
+      }
+    }
+  },
+  "arrayOfObjects": [
+    { "id": 1, "name": "Первый", "active": true },
+    { "id": 2, "name": "Второй", "active": false }
+  ],
+  "specialCharsKey!@#$%": "ключ со спецсимволами",
+  "urlValue": "https://example.com/path?query=value&other=123",
+  "author": {
+    "name": "Тестовый пользователь",
+    "email": "test@example.com",
+    "urls": ["https://example.com", "https://example.org"],
+    "age": 30,
+    "isVerified": false
+  },
+  "matrix": [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+  ],
+  "largeNumber": 9007199254740991,
+  "smallDecimal": 0.0001
+}
