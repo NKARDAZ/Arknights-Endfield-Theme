@@ -11,7 +11,8 @@
       "request": "launch",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}",
-        "--profile=extension-dev"
+        "--profile=extension-dev",
+        "--folder-uri=${workspaceFolder}/polygon"
       ]
     }
   ]

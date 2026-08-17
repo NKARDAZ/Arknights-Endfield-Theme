@@ -22,12 +22,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Endfield Cold Light",
+        "label": "Arknights: Endfield [Light Cold]",
         "uiTheme": "vs",
         "path": "./themes/arknights-endfield-cold-light-color-theme.json"
       },
       {
-        "label": "Endfield Warm Light",
+        "label": "Arknights: Endfield [Light Warm]",
         "uiTheme": "vs",
         "path": "./themes/arknights-endfield-warm-light-color-theme.json"
       }
