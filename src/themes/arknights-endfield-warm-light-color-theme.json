@@ -1,0 +1,72 @@
+{
+  "parent": "arknights-endfield-cold-light-color-theme",
+  "name": "Endfield Warm Light",
+  "type": "light",
+  "colors": {
+    "sideBar.background": "#F0F0ED",
+    "sideBarTitle.foreground": "#888880",
+    "sideBarSectionHeader.background": "#E4E4E0",
+
+    "list.hoverBackground": "#E8E8E2",
+    "list.inactiveSelectionBackground": "#E0E0DC",
+    "listFilterWidget.background": "#F0F0ED",
+
+    "editor.background": "#FAFAF7",
+    "editorLineNumber.foreground": "#BCBCB4",
+    "editorIndentGuide.activeBackground1": "#BCBCB4",
+
+    "editorGutter.background": "#FAFAF7",
+
+    "editorWidget.background": "#F0F0ED",
+    "editorSuggestWidget.background": "#F0F0ED",
+    "editorHoverWidget.background": "#F0F0ED",
+
+    "peekViewEditor.background": "#F5F5F0",
+    "peekViewTitle.background": "#F5F5F0",
+    "peekViewTitleDescription.foreground": "#888880",
+
+    "editorGroupHeader.tabsBackground": "#efefea",
+    "tab.inactiveBackground": "#efefea",
+    "tab.inactiveForeground": "#888880",
+
+    "titleBar.activeBackground": "#EAEAE6",
+    "titleBar.inactiveBackground": "#F0F0ED",
+    "titleBar.inactiveForeground": "#888880",
+
+    "statusBar.background": "#EAEAE6",
+    "statusBar.noFolderBackground": "#F0F0ED",
+
+    "panel.background": "#F0F0ED",
+    "panelTitle.inactiveForeground": "#888880",
+
+    "terminal.background": "#e4e4e0",
+
+    "notificationCenterHeader.background": "#E4E4E0",
+    "notifications.background": "#F0F0ED",
+
+    "input.placeholderForeground": "#BCBCB4",
+
+    "dropdown.background": "#F0F0ED",
+
+    "breadcrumb.foreground": "#888880",
+    "breadcrumbPicker.background": "#F0F0ED",
+
+    "descriptionForeground": "#888880",
+
+    "menu.background": "#F0F0ED",
+
+    "quickInput.background": "#F0F0ED",
+
+    "settings.dropdownBackground": "#F0F0ED",
+
+    "keybindingLabel.background": "#E4E4E0",
+
+    "debugToolBar.background": "#fafaf7",
+    "debugToolBar.border": "#fafaf7",
+  },
+
+  "tokenColors": [],
+
+  "semanticHighlighting": true,
+  "semanticTokenColors": {}
+}

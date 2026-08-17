@@ -4,4 +4,9 @@
 vsc-extension-quickstart.md
 
 design/**
-polyhon/**
+polygon/**
+
+node_modules/**
+src/**
+scripts/**
+**/*.map
