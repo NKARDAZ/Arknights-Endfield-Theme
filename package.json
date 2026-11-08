@@ -7,6 +7,7 @@
   "scripts": {
     "build": "node scripts/build-themes.js",
     "watch": "node scripts/watch-themes.js",
+    "package": "npx @vscode/vsce package",
     "vscode:prepublish": "npm run build"
   },
   "devDependencies": {
