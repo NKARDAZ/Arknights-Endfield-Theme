@@ -28,6 +28,16 @@
         "path": "./themes/arknights-endfield-cold-light-color-theme.json"
       },
       {
+        "label": "Arknights: Endfield [Dark]",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arknights-endfield-dark-color-theme.json"
+      },
+      {
+        "label": "Arknights: Endfield [Dark Soft]",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arknights-endfield-dark-soft-color-theme.json"
+      },
+      {
         "label": "Arknights: Endfield [Light Warm]",
         "uiTheme": "vs",
         "path": "./themes/arknights-endfield-warm-light-color-theme.json"

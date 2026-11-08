@@ -2,17 +2,21 @@
 
 A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.
 
-## Warm Theme
+## Light Cold Theme
 
-![1779202486668](image/README/1779202486668.png)
+![light cold theme](image/README/light-cold.png)
 
-## Cold Theme
+## Light Warm Theme
 
-![1779362156030](image/README/1779362156030.png)
+![light warm theme](image/README/light-warm.png)
 
-## Dark Theme?
+## Dark Theme
 
-The dark theme will be created after the color scheme of the light themes has been further refined.
+![dark theme](image/README/dark.png)
+
+## Dark Soft Theme
+
+![dark theme](image/README/dark-soft.png)
 
 ---
 
