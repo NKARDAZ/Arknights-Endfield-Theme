@@ -4,19 +4,19 @@ A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorse
 
 ## Light Cold Theme
 
-![light cold theme](image/README/light-cold.png)
+![light cold theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/light-cold.png)
 
 ## Light Warm Theme
 
-![light warm theme](image/README/light-warm.png)
+![light warm theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/light-warm.png)
 
 ## Dark Theme
 
-![dark theme](image/README/dark.png)
+![dark theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/dark.png)
 
 ## Dark Soft Theme
 
-![dark theme](image/README/dark-soft.png)
+![dark theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/dark-soft.png)
 
 ---
 
