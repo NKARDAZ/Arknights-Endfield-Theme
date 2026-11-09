@@ -1,22 +1,17 @@
-# Arknights: Endfield Theme
+# “Arknights: Endfield” Inspired Themes
 
-A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.
+I really liked the user interface design of Arknights: Endfield, including its color palette. It inspired me to create color themes for several applications, featuring both light and dark variants.
 
-## Light Cold Theme
+## [VS Code](/vscode/)
 
-![light cold theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/light-cold.png)
+![vscode preview](image/README/vscode-preview.png)
 
-## Light Warm Theme
+## [Writality](/writality/)
 
-![light warm theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/light-warm.png)
+![writality preview](image/README/writality-preview.png)
 
-## Dark Theme
-
-![dark theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/dark.png)
-
-## Dark Soft Theme
-
-![dark theme](https://raw.githubusercontent.com/NKARDAZ/Arknights-Endfield-Theme/main/image/README/dark-soft.png)
+# Disclaimer
+A fan-made theme inspired by Arknights: Endfield. Not affiliated with, endorsed by, or sponsored by Hypergryph. All trademarks are the property of their respective owners.
 
 ---
 

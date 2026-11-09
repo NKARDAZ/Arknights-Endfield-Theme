@@ -1,52 +1,9 @@
 {
-  "name": "arknights-endfield-theme",
-  "displayName": "Arknights: Endfield Theme",
-  "description": "A fan-made theme inspired by Arknights: Endfield. Not affiliated with or endorsed by Hypergryph.",
-  "publisher": "YallaNkardaz",
-  "version": "1.0.6",
+  "name": "endfield-themes",
+  "private": true,
+  "workspaces": ["vscode"],
   "scripts": {
-    "build": "node scripts/build-themes.js",
-    "watch": "node scripts/watch-themes.js",
-    "package": "npx @vscode/vsce package",
-    "vscode:prepublish": "npm run build"
-  },
-  "devDependencies": {
-    "chokidar": "^6.0.0",
-    "jsonc-parser": "^3.3.1"
-  },
-  "engines": {
-    "vscode": "^1.120.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Arknights: Endfield [Light Cold]",
-        "uiTheme": "vs",
-        "path": "./themes/arknights-endfield-cold-light-color-theme.json"
-      },
-      {
-        "label": "Arknights: Endfield [Dark]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/arknights-endfield-dark-color-theme.json"
-      },
-      {
-        "label": "Arknights: Endfield [Dark Soft]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/arknights-endfield-dark-soft-color-theme.json"
-      },
-      {
-        "label": "Arknights: Endfield [Light Warm]",
-        "uiTheme": "vs",
-        "path": "./themes/arknights-endfield-warm-light-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NKARDAZ/Arknights-Endfield-Theme.git"
-  },
-  "icon": "logo.png"
+    "build": "npm run build --workspaces --if-present",
+    "package:vscode": "npm run package -w vscode"
+  }
 }
